@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+    <form>
+        <h1>Form Data Diri</h1>
+        <!-- Contoh Penggunaan input tipe text -->
+        <label for="username">username : </label><input type="text" id="username">
+            <br>
+        <!-- Contoh Penggunaan input tipe password -->
+        <label for="password">password : </label><input type="password" id="password">
+            <br>
+        <!-- Contoh Penggunaan input tipe radio -->
+        <p>Jenis Kelamin</p>
+        <input type="radio" id="pria" name="jenis kelamin"><label for="pria">Pria</label>
+        <input type="radio" id="wanita" name="jenis kelamin"><label for="wanita">Wanita</label>
+            <br>
+        <!-- Contoh Penggunaan input tipe checkbox -->
+        <p>Hobi</p>
+        <input type="checkbox" id="menanyi"><label for="menyanyi">Menyanyi</label>
+        <input type="checkbox" id="menari"><label for="menari">Menari</label>
+        <input type="checkbox" id="ngoding"><label for="ngoding">Ngoding</label>
+            <br><br>
+        <!-- Contoh Penggunaan input tipe submit -->
+        <!-- Namun submit tipe ini tidak direkomendasikan karena submit lebih baik dibuat pada button -->
+        <!-- <input type="submit" value="Kirim!"> -->
+
+        <!-- Contoh Penggunaan textarea -->
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br>
+        <!-- Contoh Penggunaan Con=mbo box -->
+        <p>Domisili</p>
+        <select name="domisili" id="domisili">
+            <option value="domisili">Bandung</option>
+            <option>Jakarta</option>
+            <option>Solo</option>
+        </select>
+
+            <br><br>
+
+        <button type="submit">Kirim</button> 
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
